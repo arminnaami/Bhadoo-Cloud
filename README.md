@@ -87,8 +87,8 @@ Installation on [AWS Cloud](https://aws.amazon.com/ec2/)
 ```
   docker run --name ct -d -p 80:3000 \
     --restart always \
-    -e GOOGLE_CLIENT_ID='***' -e GOOGLE_CLIENT_SECRET='***' -e GOOGLE_REDIRECT_URL='***/oauthCallback' \
-    arminnaami/bhadoocloud:stable node server/server.js
+    -e GOOGLE_CLIENT_ID='407649997728-08k82jbkcs0rchjhg3468rnss2igsusg.apps.googleusercontent.com' -e GOOGLE_CLIENT_SECRET='7tIcc5J15u312QT6fr2XWw7X' -e GOOGLE_REDIRECT_URL='http://cloud.imgload.ir/' \
+    78177/bhadoocloud:stable node server/server.js
 ```
 
 * For Latest Installation (Experimental, may not work)
@@ -96,8 +96,8 @@ Installation on [AWS Cloud](https://aws.amazon.com/ec2/)
 ```
   docker run --name ct -d -p 80:3000 \
     --restart always \
-    -e GOOGLE_CLIENT_ID='***' -e GOOGLE_CLIENT_SECRET='***' -e GOOGLE_REDIRECT_URL='***/oauthCallback' \
-    arminnaami/bhadoocloud node server/server.js
+    -e GOOGLE_CLIENT_ID='407649997728-08k82jbkcs0rchjhg3468rnss2igsusg.apps.googleusercontent.com' -e GOOGLE_CLIENT_SECRET='7tIcc5J15u312QT6fr2XWw7X' -e GOOGLE_REDIRECT_URL='http://cloud.imgload.ir/' \
+    78177/bhadoocloud node server/server.js
 ```
 
 Fill `***` with appropriate values from Google Developer Console.
