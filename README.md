@@ -88,7 +88,7 @@ Installation on [AWS Cloud](https://aws.amazon.com/ec2/)
   docker run --name ct -d -p 80:3000 \
     --restart always \
     -e GOOGLE_CLIENT_ID='***' -e GOOGLE_CLIENT_SECRET='***' -e GOOGLE_REDIRECT_URL='***/oauthCallback' \
-    parveenbhadoo/bhadoocloud:stable node server/server.js
+    arminnaami/bhadoocloud:stable node server/server.js
 ```
 
 * For Latest Installation (Experimental, may not work)
@@ -97,7 +97,7 @@ Installation on [AWS Cloud](https://aws.amazon.com/ec2/)
   docker run --name ct -d -p 80:3000 \
     --restart always \
     -e GOOGLE_CLIENT_ID='***' -e GOOGLE_CLIENT_SECRET='***' -e GOOGLE_REDIRECT_URL='***/oauthCallback' \
-    parveenbhadoo/bhadoocloud node server/server.js
+    arminnaami/bhadoocloud node server/server.js
 ```
 
 Fill `***` with appropriate values from Google Developer Console.
