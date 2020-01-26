@@ -12,9 +12,9 @@ Open Source Software, All Rights Reserved by their Respected Owners.
 	<title>Bhadoo Cloud - Directly Upload to Google Drive from Torrent or URLs</title>
 	<meta name="robots" content="noindex">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ParveenBhadooOfficial/BhadooCloud@1.0/static/libs/semantic/dist/semantic.min.css" integrity="sha256-hq8jzEEtzNDAbLdCrrDfrRUCgL9NY73htrqqpZ6PzEc=" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ParveenBhadooOfficial/BhadooCloud@1.0/static/css/index.css" integrity="sha256-iZRUokDd4hKazBECAwFZuMW1ry2bLh0gIeK4DLy7TjU=" crossorigin="anonymous">
-	<link rel="icon" href="https://cdn.jsdelivr.net/gh/ParveenBhadooOfficial/BhadooCloud@1.0/static/cloud-favicon.png" type="image/x-icon" />
+	<link rel="stylesheet" href="http://imgline.ir/cloud/static/libs/semantic/dist/semantic.min.css" integrity="sha256-hq8jzEEtzNDAbLdCrrDfrRUCgL9NY73htrqqpZ6PzEc=" crossorigin="anonymous">
+	<link rel="stylesheet" href="http://imgline.ir/cloud/static/css/index.css" integrity="sha256-iZRUokDd4hKazBECAwFZuMW1ry2bLh0gIeK4DLy7TjU=" crossorigin="anonymous">
+	<link rel="icon" href="http://imgline.ir/cloud/static/cloud-favicon.png" type="image/x-icon" />
 </head>
 
 <body ng-controller="main" class="cage">
@@ -23,7 +23,7 @@ Open Source Software, All Rights Reserved by their Respected Owners.
 		<div class="equal width row">
 			<!--logo-->
 			<div class="left floated column">
-			<a href="/"><img border="0" alt="Bhadoo Cloud" src="https://cdn.jsdelivr.net/gh/jscdn/svg@1.0.1/bhadoo-cloud-logo.svg" height="30px"></a><!--New Logo in Time-->
+			<a href="/"><img border="0" alt="Cloud" src="http://onetvplus.com/thm/img/logo.png" height="30px"></a><!--New Logo in Time-->
 			</div>
 			<!--controls-->
 			<div class="column right floated right aligned">
@@ -162,30 +162,22 @@ Open Source Software, All Rights Reserved by their Respected Owners.
 		<div class="row">
 			<div class="column">
 				<!--login button-->
-				<img ng-src="https://developers.google.com/identity/images/btn_google_signin_dark_normal_web.png" title="Sign in with Google" ng-click="redirectToLoginUrl(selectedCloud.url)" class="ui circular icon" ng-class="{
-						'loading spinner':!selectedCloud,
-						'disabled':(!selectedCloud || selectedCloud.creds),
-						'green inverted':selectedCloud.creds,
-						'link':(!selectedCloud || !selectedCloud.creds),
-						'user':selectedCloud
-					}">
-
 				<i style="display: none" class="ui lock link circular icon" ng-click="toggleIncognito()" ng-class="{'inverted':incognito,'red':incognito}"
 				 title="Incognito"></i>
-				<p><strong>© <a href="https://github.com/ParveenBhadooOfficial/Bhadoo-Cloud">Bhadoo Cloud</a> & Respected Owners | All Rights Reserved.</strong></p>
+				<p><strong>© <a href="http://onetvshow.com/">ONETVPLUS</a> | All Rights Reserved.</strong></p>
 			</div>
 		</div>
 	</div>
-	<script src="https://cdn.jsdelivr.net/gh/ParveenBhadooOfficial/BhadooCloud@1.0/static/libs/jquery/jquery.min.js" integrity="sha256-OWRoY6QU4KhJILOoY5wPPoyUU16NwFG0K0haBo3CkC8=" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/gh/ParveenBhadooOfficial/BhadooCloud@1.0/static/libs/semantic/dist/semantic.min.js" integrity="sha256-clAOqigQj3g3VDZE2D8NjaTUkojDoDEeod4dp2TLed8=" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/gh/ParveenBhadooOfficial/BhadooCloud@1.0/static/libs/angular/angular.min.js" integrity="sha256-6Yu7R8io0sEFNtrtytY3qQsLnaweva/4m25Zq5z1XU8=" crossorigin="anonymous"></script>
+	<script src="http://imgline.ir/cloud/static/libs/jquery/jquery.min.js" integrity="sha256-OWRoY6QU4KhJILOoY5wPPoyUU16NwFG0K0haBo3CkC8=" crossorigin="anonymous"></script>
+	<script src="http://imgline.ir/cloud/static/libs/semantic/dist/semantic.min.js" integrity="sha256-clAOqigQj3g3VDZE2D8NjaTUkojDoDEeod4dp2TLed8=" crossorigin="anonymous"></script>
+	<script src="http://imgline.ir/cloud/static/libs/angular/angular.min.js" integrity="sha256-6Yu7R8io0sEFNtrtytY3qQsLnaweva/4m25Zq5z1XU8=" crossorigin="anonymous"></script>
 	<script src="/socket.io/socket.io.js"></script>
-	<script src="https://cdn.jsdelivr.net/gh/ParveenBhadooOfficial/BhadooCloud@1.0/static/js/index.js" integrity="sha256-vwGGKFFheIK5ojFwP1G6IogPum4fooeYSQhe3XuyeDU=" crossorigin="anonymous"></script>
+	<script src="http://imgline.ir/cloud/static/js/index.js" integrity="sha256-vwGGKFFheIK5ojFwP1G6IogPum4fooeYSQhe3XuyeDU=" crossorigin="anonymous"></script>
 	<!--download item-->
-	<script src="https://cdn.jsdelivr.net/gh/ParveenBhadooOfficial/BhadooCloud@1.0/static/parts/downloadItem/downloadItem.js" integrity="sha256-hdXbDlPxDOsduUq1CiFZgbRRvdo07xxDO5L1kPyjnhA=" crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ParveenBhadooOfficial/BhadooCloud@1.0/static/parts/downloadItem/downloadItem.css" integrity="sha256-al5CtqqJdrrRyk1++BuAmngPVDpD2RxQPshRGODCGyA=" crossorigin="anonymous">
+	<script src="http://imgline.ir/cloud/static/parts/downloadItem/downloadItem.js" integrity="sha256-hdXbDlPxDOsduUq1CiFZgbRRvdo07xxDO5L1kPyjnhA=" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="http://imgline.ir/cloud/static/parts/downloadItem/downloadItem.css" integrity="sha256-al5CtqqJdrrRyk1++BuAmngPVDpD2RxQPshRGODCGyA=" crossorigin="anonymous">
 	<!--directory-->
-	<script src="https://cdn.jsdelivr.net/gh/ParveenBhadooOfficial/BhadooCloud@1.0/static/parts/directory/directory.js" integrity="sha256-HbfZMOopKd0ib/ia9NKkHPfSb3I6BlB9vsIjFojTWbk=" crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ParveenBhadooOfficial/BhadooCloud@1.0/static/parts/directory/directory.css" integrity="sha256-wsMZhM0fzFaPgq9IxX+//DCjgyxYgo7+7x5TNO8u87M=" crossorigin="anonymous">
+	<script src="http://imgline.ir/cloud/static/parts/directory/directory.js" integrity="sha256-HbfZMOopKd0ib/ia9NKkHPfSb3I6BlB9vsIjFojTWbk=" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="http://imgline.ir/cloud/static/parts/directory/directory.css" integrity="sha256-wsMZhM0fzFaPgq9IxX+//DCjgyxYgo7+7x5TNO8u87M=" crossorigin="anonymous">
 	</body>
 </html>
