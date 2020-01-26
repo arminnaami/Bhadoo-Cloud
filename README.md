@@ -1,6 +1,6 @@
 <div align="center">
 
-[<img src="https://cdn.jsdelivr.net/gh/jscdn/svg@1.0.1/bhadoo-cloud-logo.svg" data-canonical-src="http://onetvplus.com/thm/img/logo.png" height="80" />](https://github.com/ParveenBhadooOfficial/Bhadoo-Cloud)
+[<img src="http://onetvplus.com/thm/img/logo.png" data-canonical-src="http://onetvplus.com/thm/img/logo.png" height="80" />](http://onetvplus.com)
 
 Fetch Torrents using .torrent file or Magnet Links, Fetch Files from Other Servers to Own Server and Upload to Google Drive.
 
